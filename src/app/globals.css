@@ -4,6 +4,11 @@
 
 @font-face {
     font-family: "RedHatText";
+    src: url('../../assets/fonts/static/RedHatText-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "RedHatTextBold";
     src: url('../../assets/fonts/static/RedHatText-Bold.ttf');
 }
 
@@ -24,6 +29,10 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #fcf8f5;
+  h1 {
+    font-family: "RedHatTextBold";
+    font-size: 30px;
+  }
   font-family: "RedHatText";
 }
 
