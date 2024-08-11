@@ -29,11 +29,12 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #fcf8f5;
+  font-family: "RedHatText";
+  font-size: 12px;
   h1 {
     font-family: "RedHatTextBold";
     font-size: 30px;
   }
-  font-family: "RedHatText";
 }
 
 @layer utilities {
